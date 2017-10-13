@@ -112,7 +112,7 @@ NexT can automatically add links to your Social Media accounts:
 
 ```yml
 social:
-  GitHub: your-github-url
+  GitHub: https://github.com/80666881
   Twitter: your-twitter-url
   Weibo: your-weibo-url
   DouBan: your-douban-url
@@ -175,3 +175,15 @@ since: 2013
 ## Browser support
 
 ![Browser support](http://iissnan.com/nexus/next/browser-support.png)
+
+
+```js
+var a = [1,2,3]
+console.log(a)
+
+class Peroson extends man{
+  constructor(){
+    
+  }
+}
+```

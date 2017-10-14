@@ -212,12 +212,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
-Weibo: https://weibo.com/zhengzehaomicroblog/
-GitHub: https://github.com/80666881
-Email: mailto:8719329@163.com
-
+social:
+# LinkLabel: Link
+  GitHub: https://github.com/80666881
+  微博: https://weibo.com/zhengzehaomicroblog/
+  Email: mailto:87192329@163.com
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -229,8 +228,9 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
-  Email: weibo
+  微博: weibo
+  Email: paper-plane-o
+
 
 
 # Sidebar Avatar

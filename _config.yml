@@ -6,7 +6,7 @@
 # Site
 title: NexT
 subtitle:
-description: 子曰:"吾尝终日不食，终夜不寝，以思，无益，不如学也。"
+description: ‘心之忧危，若蹈虎尾，涉于春冰’
 author: Zeller Zheng
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -214,9 +214,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-social:
-  GitHub: https://github.com/80666881
-  weibo: https://weibo.com/zhengzehaomicroblog
+Weibo: https://weibo.com/zhengzehaomicroblog/
+GitHub: https://github.com/80666881
+Email: mailto:8719329@163.com
 
 # Social Links Icons
 # Icon Mapping:
@@ -229,13 +229,15 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: Weibo
+  Weibo: weibo
+  Email: weibo
 
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
 avatar: /assets/images/avatar.jpeg
+
+
 
 # Table Of Contents in the Sidebar
 toc:
@@ -363,9 +365,9 @@ highlight_theme: night
 
 # MathJax Support
 mathjax:
-  enable: true
-  per_page: true
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  enable: false
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
@@ -541,7 +543,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: falsebundle exec jekyll serve
+  enable: false
   hits:
     per_page: 10
   labels:
@@ -702,11 +704,3 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
-
-gems:
-  - algoliasearch-jekyll
-
-
-algolia:
-  application_id: 'LK9VPMG2B0'
-  index_name:     'zeller_blog'

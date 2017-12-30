@@ -208,14 +208,14 @@ console.log(obj);//{name:'zeller'}
 //改变属性，不是整个对象
 var change3 = function (a) {
     a.name ='atoms'
-    console.log(a);//{name:'zeller'}
+    console.log(a);//{name:'atoms'}
 }
 
 var obj3 = {name:'zeller'}
 
 change3(obj3)
 
-console.log(obj3);//{name:'zeller'}
+console.log(obj3);//{name:'atoms'}
 ```
 
 ## 总结
